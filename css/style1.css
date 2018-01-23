@@ -1,0 +1,120 @@
+/* styles for tedTalks - Jim Massey */
+
+
+      div{
+      /*margin-top:10px;*/
+      margin-bottom:10px;
+      background-color: biege;
+      text-align: left;
+      }
+      
+      #queryRow{
+      #position: relative;
+      position: fixed;
+      top: 0px;
+      width: 95%;
+      height: 3em;
+      padding: 5px;
+      padding-top: 8px;
+      margin: 5px;
+      z-index: 1;
+      
+      border-style: solid;
+      border-color: blue;
+      background-color: orange;
+      opacity: 1;
+      }
+
+      #optionsBTN{
+	  float: right;
+      }
+
+      #queryRowExtras{
+          display: none;
+	  margin-top: 5px;
+      }
+/*
+      #tedFile {
+	  display: none;
+      }
+*/
+      #dataValue{
+      position: absolute;
+      top: 75px;
+      height: 100%;
+      width: 95%;
+      margin: 5px;
+      padding: 5px;
+      margin-bottom:250px;
+      text-align: left;
+      border-style: solid;
+      border-color:orange;
+      overflow: auto;
+      }
+
+      .tedtext{
+      position: relative;
+      width: 100%;
+      height: 350px;
+      top: 10px;
+      background-color: aqua;
+      float: right;
+      }
+
+      .tedDocument{
+      position: relative;
+      width: 100%;
+      height: 350px;
+      background-color: beige;
+      }
+
+       .tedDocumentA{
+      position: relative;
+      margin-top: 10px;
+      width: 100%;
+      height: 425px;
+      margin-bottom: 10px;
+      background-color: beige;
+      }
+
+      #dataLeft{
+      position: relative;
+      top:0px;
+      left:1px;
+      width: 40%;
+      border-style:solid;
+      overflow: auto;
+      }
+
+      #dataRight{
+      position: relative;
+      left:10px;
+      width: 50%;
+      height: 100%;
+      margin-left: 5px;
+      }
+
+      .dataFloats{
+      float: left;
+      width:50%;
+      }
+
+      .searchBTN{
+      /*margin-right: 50%;*/
+      /*float: right;*/
+      }
+
+      .closeDataBTN{
+      margin-left: 4px;
+      margin-right: 4px;
+      }
+
+      .dataButtonBox{
+      float: right;
+      margin-bottom: 15px;
+      }
+      
+      span{
+	  color: red;
+	  background-color:lightgrey
+      }

@@ -1,0 +1,30 @@
+/* sytles for the textsearch results display div
+Jim Massey
+*/
+
+.wordHighLite{
+    color: red;
+    background-color:yellow
+}
+
+.navBar{
+    position: relative;
+    top: 0px;
+    height: 40px;
+    border-style:solid;
+    background-color:blue;
+    margin-bottom:10px;
+}
+
+.TedDataSearched{
+    width:100%;
+    padding-left: 5px;
+    background-color: beige;
+    height: 90%;
+    overflow: auto;
+}
+
+#tedSearch2{
+    overflow:hidden;
+    height: 400px;
+}

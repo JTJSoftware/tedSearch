@@ -1,0 +1,53 @@
+<html>
+
+  <head>
+    <link href="./css/style1.css" rel="stylesheet">
+    <script src="./scripts/tedTalks.js" rel="javascript"></script>
+   
+    <style>
+    </style>
+  </head>
+
+
+  <body>
+
+    <div id="queryRow">
+
+      SEARCH::
+<!--      Path:
+      <input type="text" id="tedFile" name="tedFile" value="/var/www/html/tedTalks/">
+-->
+      <!-- use this for godaddy 
+        <input type="text" id="tedFile" name="tedFile" value="/home/content/08/11387208/html/tedTalks/">
+      -->
+     
+    &nbsp Column:
+     <select id="columns" name="columns" title="Choose search column order">
+       <option title="Search for speaker" value = "speaker">Speaker</option>
+       <option title="Search for subject txt" value = "tags">Tags</option>
+     </select>
+
+      &nbsp TXT:
+     <input type="text" id="textFile" name="textFile" value="txt">
+     
+     &nbsp Speaker:
+     <input type="text" id="searchTerm" name="searchTerm">
+     
+     <button label="Submit" onclick="doAjax();">Submit Query</button>
+ <!--    <button label="Search" onclick="doSearchTerm();">Search</button>
+   -->
+     <button id="optionsBTN" label="more" title="click to show/hide extra search items" onclick="expandQueryRow();">more</button>
+
+       <div id="queryRowExtras">
+         Path:
+         <input type="text" id="tedFile" name="tedFile" value="/var/www/html/tedTalks/" title="Full path to the file for searching">
+       </div>
+     
+    </div>
+
+    <div id="dataValue">
+     <div id="dataLeft" class="resultLinks dataFloats"></div>
+     <div id="dataRight" class="resultData dataFloats"></div>
+    </div>
+  </body>
+</html>
