@@ -16,9 +16,6 @@ cgiForm = cgi.FieldStorage()
 # Ask the user to enter string to search
 #search_path = raw_input("Enter directory path to search : ")
 search_path = cgiForm["tedFile"].value
-#search_path = "/var/www/html/balto/transcripts/"
-#godaddy search_path:
-#search_path = "/home/content/08/11387208/html/tedTalks/"
 
 #file_type = raw_input("File Type : ")
 try:
